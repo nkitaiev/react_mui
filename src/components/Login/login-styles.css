@@ -1,0 +1,92 @@
+/*.login-left-side {*/
+/*    position: relative;*/
+/*}*/
+
+.login-image-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.page-layout {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.back-button {
+    display: flex;
+    margin-bottom: 180px;
+    align-items: center;
+}
+
+.back-button > span {
+    margin-left: 10px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+
+.title span:last-child {
+    color: #B9DF12
+}
+
+.divider {
+    color: red;
+    margin-top: 50px;
+    position: relative;
+}
+
+.divider hr {
+    border: 1px solid #E1E6EC;
+}
+/*.divider .circle {*/
+/*    position: absolute;*/
+/*    display: flex;*/
+/*    top: 0;*/
+/*    right: 0;*/
+/*    left: 0;*/
+/*    bottom: 0;*/
+/*    !*transform: translate(46%);*!*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+.circle-wrapper {
+    padding: 0 10px;
+    position: absolute;
+    display: flex;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    /*transform: translate(46%);*/
+    justify-content: center;
+    align-items: center;
+}
+.circle {
+    padding: 0 10px;
+    background-color: #FFFFFF;
+}
+
+.circle div {
+    display: flex;
+    width: 36px;
+    height: 36px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: bold;
+    color: #9B97A1;
+    background-color: #E1E6EC;
+}
+
+.create-account-block {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 24px;
+}
